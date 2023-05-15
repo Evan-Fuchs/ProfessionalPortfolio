@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(4, 78, 4);
+}
+
+nav {
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+}
+
+.nav-link {
+    background-color: rgba(201, 133, 45, 0.8);
+    border: 1px solid burlywood;
+    border-radius: 5px;
+}
+
+#main {
+    width: auto;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+}
+
+#professionalSection {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.column {
+    background-color: rgba(35, 5, 75, 0.8);
+    color: white;
+    border: 1px solid rgba(35, 5, 75, 0.5);
+    border-radius: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#exampleTitle {
+    background-color: rgba(201, 133, 45, 0.8);
+    border: 1px solid burlywood;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin: 30px;
+}
+
+#exampleList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.exampleCode {
+    background-color: rgba(35, 5, 75, 0.8);
+    border: 1px solid rgba(35, 5, 75, 0.8);
+    color: white;
+    border-radius: 10px;
+    padding: 1em;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#summary {
+    background-color: rgba(35, 5, 75, 0.8);
+    border: 1px solid rgba(35, 5, 75, 0.8);
+    color: white;
+    border-radius: 10px;
+    width: 40%
+}
+
+#personalTitle {
+    background-color: rgba(201, 133, 45, 0.8);
+    border: 1px solid burlywood;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin: 30px;
+}
+
+#hobbiesList {
+    background-color: rgba(35, 5, 75, 0.8);;
+    list-style-type: none;
+}
